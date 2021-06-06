@@ -18,9 +18,9 @@ function Application() {
         setWeather("");
         setError(true);
         setQuery("");
-        setTimeout(() => {
-          window.location.replace("/");
-        }, 3000);
+        // setTimeout(() => {
+        //   window.location.replace("/");
+        // }, 3000);
       }
     }
   };
