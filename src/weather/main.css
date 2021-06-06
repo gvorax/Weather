@@ -1,0 +1,56 @@
+.navbar {
+  width: 100%;
+  padding: 10px;
+  background: #80aaff;
+}
+.navbar > h3 {
+  text-align: center;
+  font-family: "JetBrains Mono";
+  font-size: 20px;
+  font-weight: bold;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.search > input {
+  width: 30%;
+  padding: 20px;
+  border: none;
+  border-bottom: 2px solid #80aaff;
+  outline: none !important;
+  font-family: "JetBrains Mono";
+  font-size: 20px;
+  font-weight: bold;
+}
+input::placeholder {
+  font-size: 20px !important;
+}
+.weather-card {
+  width: 300px;
+  box-shadow: 0 0 10px #d2d2d24d;
+  padding: 20px;
+  margin: 5% auto;
+  text-align: center;
+}
+.details {
+  margin-top: 30px;
+}
+.details > .city-name {
+  font-weight: 700;
+  font-family: "JetBrains Mono";
+}
+.details > .temp {
+  font-size: 20px;
+  margin: 25px 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "JetBrains Mono";
+}
+.weather-card > .weather-error {
+  color: red;
+  font-weight: 700;
+  font-family: "JetBrains Mono";
+}
