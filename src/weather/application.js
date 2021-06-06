@@ -19,7 +19,7 @@ function Application() {
         setError(true);
         setQuery("");
         setTimeout(() => {
-          window.location.replace("./");
+          window.location.replace("./Weather");
         }, 3000);
       }
     }
